@@ -8,7 +8,8 @@
 
 
 function roundNumber (float, int) {
-   return Math.round(float * Math.pow(10,int)) / Math.pow(10,int);
+   const pow =  Math.pow(10,int)
+   return Math.round(float * pow) / pow;
 }
 
 
